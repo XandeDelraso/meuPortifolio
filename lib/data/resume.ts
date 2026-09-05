@@ -223,4 +223,7 @@ export const contact = {
   },
 };
 
-export const resumePdfHref = "/resume/ALEXANDREFILHO.pdf";
+export const resumePdfHref: LocalizedText = {
+  pt: "/resume/ALEXANDREFILHO.pdf",
+  en: "/resume/ALEXANDREFILHO_EN.pdf",
+};

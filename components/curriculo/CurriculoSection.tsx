@@ -28,7 +28,7 @@ export default function CurriculoSection() {
           </span>
         </Reveal>
         <Reveal delay={0.08}>
-          <Button href={resumePdfHref} variant="primary" external>
+          <Button href={resumePdfHref[locale]} variant="primary" external>
             {t.resume.downloadPdf}
           </Button>
         </Reveal>
@@ -166,7 +166,7 @@ export default function CurriculoSection() {
         </div>
 
         <div className="mt-10">
-          <Button href={resumePdfHref} variant="outline" external>
+          <Button href={resumePdfHref[locale]} variant="outline" external>
             {t.resume.downloadPdfLong}
           </Button>
         </div>
