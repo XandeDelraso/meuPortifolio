@@ -122,7 +122,7 @@ const pt: Dictionary = {
   },
   footer: {
     title: "Vamos conversar?",
-    text: "Entre em contato pelos canais ao lado.",
+    text: "Entre em contato.",
     contact: "Contato",
     social: "Redes",
     copyright: "© {year} Alexandre Del Raso Filho. Todos os direitos reservados.",
@@ -186,7 +186,7 @@ const en: Dictionary = {
   },
   footer: {
     title: "Let's talk?",
-    text: "Get in touch through the channels alongside.",
+    text: "Keep in touch.",
     contact: "Contact",
     social: "Social",
     copyright: "© {year} Alexandre Del Raso Filho. All rights reserved.",

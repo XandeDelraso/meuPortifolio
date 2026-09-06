@@ -5,8 +5,8 @@ export const about: {
   badges: LocalizedText[];
 } = {
   text: {
-    pt: "Me chamo Alexandre, tenho 23 anos e sou de Salvador, Bahia. Estou na reta final de Engenharia de Computação na Universidade Senai Cimatec, e atuo como desenvolvedor full stack há mais de 2 anos, hoje na equipe de automação da IP3 Soluções.",
-    en: "My name is Alexandre, I'm 23 years old and I'm from Salvador, Bahia. I'm in the final stretch of my Computer Engineering degree at Universidade Senai Cimatec, and I've been working as a full stack developer for over 2 years, currently on the automation team at IP3 Soluções.",
+    pt: "Me chamo Alexandre, tenho 23 anos e sou de Salvador, Bahia. Estou na reta final de Engenharia de Computação na Universidade Senai Cimatec, e atuo como desenvolvedor full stack há mais de 2 anos, hoje na equipe de automação da iP3 Soluções.",
+    en: "My name is Alexandre, I'm 23 years old and I'm from Salvador, Bahia. I'm in the final stretch of my Computer Engineering degree at Universidade Senai Cimatec, and I've been working as a full stack developer for over 2 years, currently on the automation team at iP3 Soluções.",
   },
   badges: [
     { pt: "Salvador, BA", en: "Salvador, BA" },
@@ -18,7 +18,7 @@ export const about: {
 
 export const education = {
   course: { pt: "Engenharia de Computação", en: "Computer Engineering" } satisfies LocalizedText,
-  institution: "SENAI CIMATEC",
+  institution: "Universidade Senai Cimatec",
   period: {
     pt: "agosto de 2021 até o momento (reta final do curso)",
     en: "August 2021 to present (final stretch of the program)",
