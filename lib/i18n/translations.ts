@@ -186,7 +186,7 @@ const en: Dictionary = {
   },
   footer: {
     title: "Let's talk?",
-    text: "Keep in touch.",
+    text: "Get in touch through the channels alongside.",
     contact: "Contact",
     social: "Social",
     copyright: "© {year} Alexandre Del Raso Filho. All rights reserved.",
