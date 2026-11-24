@@ -39,6 +39,12 @@ export default function ProjectCard({
         </div>
 
         <div className="flex flex-col justify-center gap-4 px-4 py-6 md:px-6 md:py-10">
+          {project.client && (
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600">
+              {t.projects.client} · {project.client[locale]}
+            </span>
+          )}
+
           <h3 className="font-serif text-3xl text-ink md:text-4xl">
             {project.title}
           </h3>

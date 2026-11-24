@@ -52,6 +52,11 @@ export type Dictionary = {
     viewSite: string;
     repository: string;
     viewProject: string;
+    tabsLabel: string;
+    tabPersonal: string;
+    tabProfessional: string;
+    professionalIntro: string;
+    client: string;
   };
   contactModal: {
     title: string;
@@ -116,6 +121,12 @@ const pt: Dictionary = {
     viewSite: "Visitar site ↗",
     repository: "Repositório ↗",
     viewProject: "Ver projeto ↗",
+    tabsLabel: "Tipo de projeto",
+    tabPersonal: "Pessoais",
+    tabProfessional: "Profissionais",
+    professionalIntro:
+      "Trabalhos freelance que entreguei para empresas e profissionais, do planejamento ao site no ar.",
+    client: "Cliente",
   },
   contactModal: {
     title: "Fale comigo",
@@ -180,6 +191,12 @@ const en: Dictionary = {
     viewSite: "Visit site ↗",
     repository: "Repository ↗",
     viewProject: "View project ↗",
+    tabsLabel: "Project type",
+    tabPersonal: "Personal",
+    tabProfessional: "Professional",
+    professionalIntro:
+      "Freelance work I've delivered for businesses and professionals, from planning to a live website.",
+    client: "Client",
   },
   contactModal: {
     title: "Get in touch",
