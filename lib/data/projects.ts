@@ -3,6 +3,8 @@ import type { LocalizedText } from "@/lib/i18n/translations";
 export type Project = {
   slug: string;
   title: string;
+  /** Para quem o trabalho foi feito (apenas projetos profissionais/freelance). */
+  client?: LocalizedText;
   description: LocalizedText;
   details: LocalizedText;
   tags: string[];
@@ -51,6 +53,33 @@ export const projects: Project[] = [
     imageAlt: {
       pt: "Interface do SenaiNotas com pesos de avaliação e calculadora de média",
       en: "SenaiNotas interface with grading weights and average calculator",
+    },
+  },
+];
+
+/** Trabalhos freelance entregues para empresas e pessoas. */
+export const professionalProjects: Project[] = [
+  {
+    slug: "aline-del-raso",
+    title: "Aline Del Raso",
+    client: {
+      pt: "Aline Del Raso, psicóloga clínica",
+      en: "Aline Del Raso, clinical psychologist",
+    },
+    description: {
+      pt: "Site institucional para a psicóloga clínica e Gestalt-terapeuta Aline Del Raso, em Salvador. Apresenta sua trajetória, áreas de atuação, formas de atendimento (presencial no Itaigara ou online) e dúvidas frequentes, com foco em levar o visitante ao agendamento pelo WhatsApp.",
+      en: "Website for Aline Del Raso, a clinical psychologist and Gestalt therapist in Salvador, Brazil. It presents her background, areas of practice, session formats (in person at Itaigara or online) and FAQ, focused on leading visitors to book through WhatsApp.",
+    },
+    details: {
+      pt: "Página única em HTML, CSS e JavaScript, sem framework, leve e rápida. Identidade visual própria, layout responsivo, navegação por âncoras, SEO on-page, botão flutuante de WhatsApp e um formulário que monta a mensagem e abre a conversa no WhatsApp, sem armazenar dados do paciente.",
+      en: "Single page built with plain HTML, CSS and JavaScript, no framework, light and fast. Custom visual identity, responsive layout, anchor navigation, on-page SEO, a floating WhatsApp button and a form that composes the message and opens the WhatsApp chat without storing any patient data.",
+    },
+    tags: ["HTML/CSS", "JavaScript", "SEO", "Responsive"],
+    href: "https://psialinedelraso.com.br/",
+    image: "/images/projects/alinedelraso.png",
+    imageAlt: {
+      pt: "Página inicial do site da psicóloga Aline Del Raso, com seu nome, uma citação e sua foto",
+      en: "Home page of psychologist Aline Del Raso's website, with her name, a quote and her photo",
     },
   },
 ];
